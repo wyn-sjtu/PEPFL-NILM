@@ -1,0 +1,541 @@
+{
+  "schema": "nilm_f_data_scope_v1",
+  "seed": 1,
+  "window": 576,
+  "tasks": [
+    {
+      "task_id": "REDD/DishWasher",
+      "dataset": "REDD",
+      "appliance": "Dish",
+      "source_appliance": "Dish",
+      "canonical": "DishWasher",
+      "households": [
+        "House_1",
+        "House_2",
+        "House_3",
+        "House_4",
+        "House_6"
+      ],
+      "household_count": 5
+    },
+    {
+      "task_id": "REDD/Microwave",
+      "dataset": "REDD",
+      "appliance": "Microwave",
+      "source_appliance": "Microwave",
+      "canonical": "Microwave",
+      "households": [
+        "House_1",
+        "House_2",
+        "House_3",
+        "House_5"
+      ],
+      "household_count": 4
+    },
+    {
+      "task_id": "REDD/Washer",
+      "dataset": "REDD",
+      "appliance": "Washer",
+      "source_appliance": "Washer",
+      "canonical": "Washer",
+      "households": [
+        "House_1",
+        "House_2",
+        "House_4",
+        "House_6"
+      ],
+      "household_count": 4
+    },
+    {
+      "task_id": "REDD/Fridge",
+      "dataset": "REDD",
+      "appliance": "Fridge",
+      "source_appliance": "Fridge",
+      "canonical": "Fridge",
+      "households": [
+        "House_1",
+        "House_2",
+        "House_3",
+        "House_5",
+        "House_6"
+      ],
+      "household_count": 5
+    },
+    {
+      "task_id": "REFIT/Fridge",
+      "dataset": "REFIT",
+      "appliance": "Fridge",
+      "source_appliance": "Fridge",
+      "canonical": "Fridge",
+      "households": [
+        "CLEAN_House1",
+        "CLEAN_House10",
+        "CLEAN_House12",
+        "CLEAN_House15",
+        "CLEAN_House16",
+        "CLEAN_House17",
+        "CLEAN_House18",
+        "CLEAN_House19",
+        "CLEAN_House2",
+        "CLEAN_House20",
+        "CLEAN_House21",
+        "CLEAN_House3",
+        "CLEAN_House4",
+        "CLEAN_House5",
+        "CLEAN_House7",
+        "CLEAN_House8",
+        "CLEAN_House9"
+      ],
+      "household_count": 17
+    },
+    {
+      "task_id": "REFIT/WashingMachine",
+      "dataset": "REFIT",
+      "appliance": "Washing",
+      "source_appliance": "Washing",
+      "canonical": "WashingMachine",
+      "households": [
+        "CLEAN_House1",
+        "CLEAN_House10",
+        "CLEAN_House11",
+        "CLEAN_House13",
+        "CLEAN_House15",
+        "CLEAN_House17",
+        "CLEAN_House18",
+        "CLEAN_House19",
+        "CLEAN_House2",
+        "CLEAN_House20",
+        "CLEAN_House21",
+        "CLEAN_House3",
+        "CLEAN_House4",
+        "CLEAN_House5",
+        "CLEAN_House6",
+        "CLEAN_House7",
+        "CLEAN_House8",
+        "CLEAN_House9"
+      ],
+      "household_count": 18
+    },
+    {
+      "task_id": "REFIT/Microwave",
+      "dataset": "REFIT",
+      "appliance": "Microwave",
+      "source_appliance": "Microwave",
+      "canonical": "Microwave",
+      "households": [
+        "CLEAN_House10",
+        "CLEAN_House11",
+        "CLEAN_House12",
+        "CLEAN_House13",
+        "CLEAN_House15",
+        "CLEAN_House17",
+        "CLEAN_House18",
+        "CLEAN_House19",
+        "CLEAN_House20",
+        "CLEAN_House3",
+        "CLEAN_House4",
+        "CLEAN_House5",
+        "CLEAN_House6",
+        "CLEAN_House8",
+        "CLEAN_House9"
+      ],
+      "household_count": 15
+    },
+    {
+      "task_id": "REFIT/Kettle",
+      "dataset": "REFIT",
+      "appliance": "Kettle",
+      "source_appliance": "Kettle",
+      "canonical": "Kettle",
+      "households": [
+        "CLEAN_House11",
+        "CLEAN_House12",
+        "CLEAN_House13",
+        "CLEAN_House17",
+        "CLEAN_House19",
+        "CLEAN_House2",
+        "CLEAN_House20",
+        "CLEAN_House21",
+        "CLEAN_House3",
+        "CLEAN_House4",
+        "CLEAN_House5",
+        "CLEAN_House6",
+        "CLEAN_House7",
+        "CLEAN_House8",
+        "CLEAN_House9"
+      ],
+      "household_count": 15
+    },
+    {
+      "task_id": "REFIT/DishWasher",
+      "dataset": "REFIT",
+      "appliance": "Dish",
+      "source_appliance": "Dish",
+      "canonical": "DishWasher",
+      "households": [
+        "CLEAN_House13",
+        "CLEAN_House16",
+        "CLEAN_House18",
+        "CLEAN_House2",
+        "CLEAN_House20",
+        "CLEAN_House21",
+        "CLEAN_House3",
+        "CLEAN_House5",
+        "CLEAN_House6",
+        "CLEAN_House7",
+        "CLEAN_House9"
+      ],
+      "household_count": 11
+    }
+  ],
+  "files": [
+    {
+      "path": "REDD/House_1.csv",
+      "bytes": 10051965,
+      "sha256": "3e5a2d87d626e7ed407280ca9832193b28aecd62ae0f54086280fddadf66f445",
+      "rows": 406748,
+      "columns": [
+        "Aggregate",
+        "Dish",
+        "Microwave",
+        "Washer",
+        "Fridge"
+      ]
+    },
+    {
+      "path": "REDD/House_2.csv",
+      "bytes": 7775761,
+      "sha256": "0f5798ee96a456aa91fc646830c0e8cae0cacbf97c7fbb45f19bec33a3634e6f",
+      "rows": 316840,
+      "columns": [
+        "Aggregate",
+        "Dish",
+        "Microwave",
+        "Washer",
+        "Fridge"
+      ]
+    },
+    {
+      "path": "REDD/House_3.csv",
+      "bytes": 7862369,
+      "sha256": "1d84bc80b9414ae66feb62c2501007f00474895bb87c2dcd9936528024b294a9",
+      "rows": 376150,
+      "columns": [
+        "Aggregate",
+        "Dish",
+        "Microwave",
+        "Fridge"
+      ]
+    },
+    {
+      "path": "REDD/House_4.csv",
+      "bytes": 6800554,
+      "sha256": "373a3230f23f7d15f9e4161067fba9c7654fe17098b44529c2571a3046fdeb6e",
+      "rows": 428076,
+      "columns": [
+        "Aggregate",
+        "Dish",
+        "Washer"
+      ]
+    },
+    {
+      "path": "REDD/House_5.csv",
+      "bytes": 1291099,
+      "sha256": "1c3194c40658cec7866d6bec1e34100c8632b031a7086361bba053d383c50f1a",
+      "rows": 77451,
+      "columns": [
+        "Aggregate",
+        "Microwave",
+        "Fridge"
+      ]
+    },
+    {
+      "path": "REDD/House_6.csv",
+      "bytes": 4051777,
+      "sha256": "b98555468b4703564d54b7eb69897d0236ba98c8ad1a684f3413a51111b00fe8",
+      "rows": 192192,
+      "columns": [
+        "Aggregate",
+        "Dish",
+        "Washer",
+        "Fridge"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House1.csv",
+      "bytes": 27072119,
+      "sha256": "1f3d53d2767be8eb57c9b26a317f9c03bf0aab49deb6754da9056a48baca3c00",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Washing"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House10.csv",
+      "bytes": 27828938,
+      "sha256": "94e38be5bf33faae13e03030b77d591d8e4492a3818d924d5e48ea454d303b16",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Washing",
+        "Microwave"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House11.csv",
+      "bytes": 26620233,
+      "sha256": "44a38dc8826b0692e7a1eca871b50fdc0a55b5df162b0e0f328473d03c40fdc3",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Washing",
+        "Microwave",
+        "Kettle"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House12.csv",
+      "bytes": 27139360,
+      "sha256": "5c2e71cc968c0c58db51b86cdcdd4414d11ec415beda24c42e7d6da933ff828a",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Microwave",
+        "Kettle"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House13.csv",
+      "bytes": 28915318,
+      "sha256": "615e81d399f47fe0612dcbec72fedb42803162d555c1e044cb773ac3966746d9",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Washing",
+        "Dish",
+        "Microwave",
+        "Kettle"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House15.csv",
+      "bytes": 27058930,
+      "sha256": "5ff509129352e9b7a34eab0bca31e08f366fcb2940f16a52eee20bb5ba8ad5ad",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Washing",
+        "Microwave"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House16.csv",
+      "bytes": 24923602,
+      "sha256": "a4ad2cff4ea4c16c72132ef5bbb42dce4524ee01c05cf55e2b7913beb8cc8668",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Dish"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House17.csv",
+      "bytes": 28863913,
+      "sha256": "6fd96674e9c8ffe0eb54fc8073994c03c45fb23d45a7974cf97c5bb836d263f0",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Washing",
+        "Microwave",
+        "Kettle"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House18.csv",
+      "bytes": 29860141,
+      "sha256": "8f38de612573023e8a2177a646a19e41461bd89369518d2baebf54179a5a129a",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Washing",
+        "Dish",
+        "Microwave"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House19.csv",
+      "bytes": 29328895,
+      "sha256": "1865af90d096b24700610ed92be81a17897c09c6c935f5e85eeebc1c7543d1ff",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Washing",
+        "Microwave",
+        "Kettle"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House2.csv",
+      "bytes": 29276499,
+      "sha256": "34f2ec0f1a1713bb08199ca5c9b3d91df5791ddfdcd3936ab4c82dcff89e85f4",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Washing",
+        "Dish",
+        "Kettle"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House20.csv",
+      "bytes": 31190509,
+      "sha256": "7d5ff83493807c0eeaa677eb44c597773c9a4a16416a6c750d70b12ad9afc8fd",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Washing",
+        "Dish",
+        "Microwave",
+        "Kettle"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House21.csv",
+      "bytes": 29475400,
+      "sha256": "4c8692449ff09180afcba3e273e93284653e7c6bc8ce86461cecd6256859024e",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Washing",
+        "Dish",
+        "Kettle"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House3.csv",
+      "bytes": 32571473,
+      "sha256": "b6e1c25f228572857873d5c8252b39b32e03d851bcacc47391e858b892d9dfa5",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Dish",
+        "Washing",
+        "Microwave",
+        "Kettle"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House4.csv",
+      "bytes": 29940077,
+      "sha256": "e775ee3dcecf1bc644655c892fff180715bdfb62d4da1eaf531917bbc920d0c0",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Washing",
+        "Microwave",
+        "Kettle"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House5.csv",
+      "bytes": 33212043,
+      "sha256": "ac911c4a6c1d679483177e9477e4befec2d0c37901950cbf7520bc48b85e6bc5",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Washing",
+        "Dish",
+        "Microwave",
+        "Kettle"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House6.csv",
+      "bytes": 29279129,
+      "sha256": "954a37c6aff70948d5f04f20ffd512127cfd1c2d4fc0ce7f8634cae68ac11301",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Washing",
+        "Dish",
+        "Microwave",
+        "Kettle"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House7.csv",
+      "bytes": 30038120,
+      "sha256": "03a5ca1d1854a3d4df4501274d8cb85669795649cea0c6f39f331ae48a38a1c1",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Washing",
+        "Dish",
+        "Kettle"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House8.csv",
+      "bytes": 29826327,
+      "sha256": "d2ecde8e8d6a53f0ba2cfe45a902530e5f0fe16ae39947e264c1d1563a1e953c",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Washing",
+        "Microwave",
+        "Kettle"
+      ]
+    },
+    {
+      "path": "REFIT/CLEAN_House9.csv",
+      "bytes": 31999979,
+      "sha256": "7a722c90710e96f734570463c56daafef5f52c9bc85f2d64cc28188d48d9225c",
+      "rows": 1048575,
+      "columns": [
+        "Time",
+        "Aggregate",
+        "Fridge",
+        "Washing",
+        "Dish",
+        "Microwave",
+        "Kettle"
+      ]
+    }
+  ]
+}

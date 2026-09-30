@@ -1,0 +1,40 @@
+# Python environments and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime outputs; bundled data/raw CSVs and figures are tracked
+/runs/
+/outputs/
+/results/
+/checkpoints/
+/data/cache/
+/data/processed/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.log
+*.zip
+*.tar.gz
+
+# Local configuration and credentials
+.env
+.env.*
+.ssh/
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

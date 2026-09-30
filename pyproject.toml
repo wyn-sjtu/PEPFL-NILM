@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "film-adaptive-huber-nilm"
+version = "0.1.0"
+description = "Fixed 1D CNN with private FiLM and residual-adaptive Huber for federated NILM"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "torch>=2.0,<3",
+  "numpy>=1.24,<2",
+  "pandas>=2.0,<3",
+  "scikit-learn>=1.3,<2",
+]
+
+[project.scripts]
+nilm-f = "nilm_f.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+nilm_f = ["resources/*.json"]
